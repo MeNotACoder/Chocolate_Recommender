@@ -1,29 +1,27 @@
-#Chocolate Recommender
-This is a simple Python project that helps users determine whether a chocolate is good or bad based on its characteristics. The project uses a trained neural network model that was built using the scikit-learn library.
+Chocolate Recommender
+This is a simple project that uses a neural network to predict whether a given chocolate is good or bad based on three features: whether it is dark, whether it is cheap, and whether it is branded. The model is trained on a dataset of existing chocolate ratings, and can be further improved with more data.
 
-#Requirements
-To run this project, you will need:
+Getting Started
+To run the project, you will need Python 3 installed on your machine. You can download Python 3 from the official Python website.
 
---> Python 3.x
---> pandas
---> scikit-learn
-#Installation
-You can install the required libraries using pip:
+Next, you will need to install the required packages. You can do this by running the following command in your terminal:
 
+Copy code
+pip install pandas sklearn tkinter
+Finally, you can run the project by running the chocolate_recommender.py file:
 
-pip install pandas scikit-learn
-Usage
-To use the Chocolate Recommender, simply run the chocolate_recommender.py script:
-
-
+Copy code
 python chocolate_recommender.py
-The program will display a simple graphical user interface (GUI) that allows users to enter the characteristics of a chocolate and receive a prediction of whether the chocolate is good or bad.
+Usage
+Once the program is running, you will be presented with a simple GUI. You can enter the three features for your chocolate, and click the "Predict" button to see whether the chocolate is good or bad.
+
+You can also click the "Add Data" button to add your own chocolate ratings to the dataset. This will help improve the accuracy of the neural network over time.
 
 Contributing
-If you would like to contribute to this project, you can:
+Contributions to the project are welcome! If you find any bugs or issues, please feel free to open an issue or submit a pull request.
 
-Submit bug reports or feature requests
-Fork the project and submit pull requests
-Help improve the documentation
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
